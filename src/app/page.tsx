@@ -15,8 +15,7 @@ export default function Home() {
         <NavbarLayoutFloatingInline
           logoSrc="/images/logo.svg"
           logoAlt="NeonPulse Logo"
-          links={["#hero", "#about", "#how-to-buy", "#tokenomics", "#footer"]}
-          sticky={true}
+          navItems={[{" name": "Hero", " id": "hero" }, {" name": "About", " id": "about" }, {" name": "How to Buy", " id": "how-to-buy" }, {" name": "Tokenomics", " id": "tokenomics" }, {" name": "Footer", " id": "footer" }]}
           buttonText="Get Early Access"
         />
       </div>
